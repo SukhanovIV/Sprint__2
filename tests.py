@@ -32,7 +32,7 @@ class TestBooksCollector:
         example = BooksCollector()
         example.add_new_book('1984')
         example.set_book_rating('О дивный новый мир', 10)
-        assert example.get_book_rating('О дивный новый мир') == []
+        assert example.get_book_rating('О дивный новый мир')
 
     def test_get_book_rating_example_less_impossible(self):
         example_less = BooksCollector()
